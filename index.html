@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Instagram</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
 </head>
     <body>
@@ -12,47 +15,47 @@
             <!-- Asside Left-->
             <aside class="aside">
                 <!-- Instagram Logo -->
-                <div class="left-nav-logo-box outline">
+                <div class="aside-nav-logo-box outline">
                     <img src="images/logo-intagram.svg" alt="logo-intagram" class="outline">
                 </div>
                 <!-- Asside Nav-Bar -->
                 <nav>
                     <ul>
-                        <li class="d-flex flex-align-center outline left-nav-box">
+                        <li class="d-flex flex-align-center outline aside-nav-box">
                             <img src="images/icons/SVG/home.svg" alt="" class="outline">
-                            <a href="#" class="left-nav-text-space outline">Home</a>
+                            <a href="#" class="aside-nav-text-space outline">Home</a>
                         </li>
-                        <li class="d-flex flex-align-center outline left-nav-box">
+                        <li class="d-flex flex-align-center outline aside-nav-box">
                             <img src="images/icons/SVG/Search.svg" alt="" class="outline">
-                            <a href="#" class="left-nav-text-space outline">Search</a>
+                            <a href="#" class="aside-nav-text-space outline">Search</a>
                         </li>
-                        <li class="d-flex flex-align-center outline left-nav-box">
+                        <li class="d-flex flex-align-center outline aside-nav-box">
                             <img src="images/icons/SVG/Explore.svg" alt="" class="outline">
-                            <a href="#" class="left-nav-text-space outline">Explore</a>
+                            <a href="#" class="aside-nav-text-space outline">Explore</a>
                         </li>
-                        <li class="d-flex flex-align-center outline left-nav-box">
+                        <li class="d-flex flex-align-center outline aside-nav-box">
                             <img src="images/icons/SVG/Reels.svg" alt="" class="outline">
-                            <a href="#" class="left-nav-text-space outline">Reels</a>
+                            <a href="#" class="aside-nav-text-space outline">Reels</a>
                         </li>
-                        <li class="d-flex flex-align-center outline left-nav-box">
+                        <li class="d-flex flex-align-center outline aside-nav-box">
                             <img src="images/icons/SVG/Message.svg" alt="" class="outline">
-                            <a href="#" class="left-nav-text-space outline">Messages</a>
+                            <a href="#" class="aside-nav-text-space outline">Messages</a>
                         </li>
-                        <li class="d-flex flex-align-center outline left-nav-box">
+                        <li class="d-flex flex-align-center outline aside-nav-box">
                             <img src="images/icons/SVG/Notifications.svg" alt="" class="outline">
-                            <a href="#" class="left-nav-text-space outline">Notifications</a>
+                            <a href="#" class="aside-nav-text-space outline">Notifications</a>
                         </li>
-                        <li class="d-flex flex-align-center outline left-nav-box">
+                        <li class="d-flex flex-align-center outline aside-nav-box">
                             <img src="images/icons/SVG/Create.svg" alt="" class="outline">
-                            <a href="#" class="left-nav-text-space outline">Create</a>
+                            <a href="#" class="aside-nav-text-space outline">Create</a>
                         </li>
-                        <li class="d-flex flex-align-center outline left-nav-box">
+                        <li class="d-flex flex-align-center outline aside-nav-box">
                             <img src="images/icons/SVG/Personal_Profile_icon.png" alt="" class="outline">
-                            <a href="#" class="left-nav-text-space outline">Profile</a>
+                            <a href="#" class="aside-nav-text-space outline">Profile</a>
                         </li>
-                        <li class="d-flex flex-align-center outline left-nav-box">
+                        <li class="d-flex flex-align-center outline aside-nav-box">
                             <img src="images/icons/SVG/More.svg" alt="" class="outline">
-                            <a href="#" class="left-nav-text-space outline">More</a>
+                            <a href="#" class="aside-nav-text-space outline">More</a>
                         </li>
                     </ul>
                 </nav>
@@ -60,22 +63,23 @@
             <div class="header-and-main">
                 <header class="header d-flex flex-column flex-justify-spc-btween outline">
                     <div class="header-top">
-                        <div class="d-flex flex-align-center outline">
+                        <div class="d-flex  flex-justify-spc-btween outline">
                             <img src="images/Profile-Pic-S.png" alt="" class="profile-pic">
-                            <div>
+                            <div class="header-top-profile-info outline">
                                 <div class="d-flex flex-align-center outline">
-                                    
-                                    <p>terrylucas</p>
+                                    <p class="header-top-profile-info-username">terrylucas</p>
                                     <button>Follow</button>
                                     <p>...</p>
                                 </div>
-                                <div class="d-flex flex-align-center outline">
-                                    <p><b>1258</b> posts</p>
-                                    <p><b>4M</b> followers</p>
-                                    <p><b>1258</b> posts</p>
+                                <div class="d-flex flex-align-center header-top-profile-info-stats outline">
+                                    <div class="d-flex flex-align-center outline">
+                                        <p><b>1258</b> posts</p>
+                                        <p><b>4M</b> followers</p>
+                                        <p><b>1258</b> posts</p>
+                                    </div>
                                 </div>
                                 <div class="d-flex flex-align-center outline">
-                                    <p>Terry Lucas</p>
+                                    <p class="header-top-profile-info-name">Terry Lucas</p>
                                 </div>
                             </div>
                         </div>
@@ -100,7 +104,7 @@
                             </div>
                         </div>
                     </div>
-                    <nav class="d-flex flex-justify-center nav-top-line nav-top-heigh outline">
+                    <nav class="d-flex flex-justify-center top-nav-line top-nav-heigh outline">
                         <ul>
                             <li class="d-flex flex-align-center outline">
                                 <img src="images/icons/SVG/home.svg" alt="" class="outline">

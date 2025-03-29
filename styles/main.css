@@ -7,6 +7,17 @@
 	text-decoration: none;
 }
 
+/* body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+}    */
+
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
 header {
   background-color: rgb(82, 82, 255);
   /* padding: 1em; */
@@ -23,6 +34,15 @@ footer {
     background-color: aquamarine;
 }
 
+button {
+    width: 90px;
+    height: 30px;
+    border-radius: 4px;
+    background: #0094F6;
+    cursor: pointer;
+    border: none;
+}
+
 .footer {
     height: 93px;
 }
@@ -33,14 +53,15 @@ footer {
 }
 
 .saved-story {
-    width: 55px;
+    width: 125px;
+    height: 130px;
     /* padding: 1em; */
     font-size: .9em;
     text-align: center;
 }
 
 .saved-story-pic {
-    width: 55px;
+    width: 77px;
     height: auto;
     border-radius: 50%; /* Hace que la imagen sea circular */
     border: 5px solid #000; /* Ajusta el color y el grosor del borde según sea necesario */
@@ -59,7 +80,31 @@ footer {
 }
 .header-top {
     height: 441px;
+    padding: 71px 0 55px 73px;
 }
+
+.header-top-profile-info {
+    width: 613px;
+    padding-top: 14px;
+}
+
+.header-top-profile-info-username {
+    font-size: 1.6em;
+    font-weight: 350;
+}
+
+.header-top-profile-info-stats {
+    font-size: 1.2em;
+    font-weight: 350;
+    padding: 20px 0;
+}
+
+.header-top-profile-info-name {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+/* 73 */
 
 .header-and-main {
     width: 935px;
@@ -97,16 +142,16 @@ footer {
     border: .1px dotted red;
 }
 
-.nav-top-heigh {
+.top-nav-heigh {
     height: 53px;
     background-color: blueviolet;
 }
 
-.nav-top-line {
+.top-nav-line {
     border-top: 2px solid #000;
 }
 
-.left-nav-box {
+.aside-nav-box {
     width: 220px;
     height: 48px;
     margin: 8px 12px;
@@ -114,12 +159,11 @@ footer {
 }
 
 
-
-.left-nav-text-space {
+.aside-nav-text-space {
     margin-left: 16px;
 } 
 
-.left-nav-logo-box {
+.aside-nav-logo-box {
     padding-top: 40px;
     padding-left: 24px;
     padding-bottom: 31px;
