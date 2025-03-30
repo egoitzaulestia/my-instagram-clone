@@ -14,19 +14,11 @@ body {
     background-color: #fAfAfA;
     color: #262626;
 }
-/* 
-header {
-
-} */
 
 aside {
     background-color: #FFFFFF;
     direction: node;
 }
-
-/* footer {
-    background-color: aquamarine;
-} */
 
 a {
     text-decoration: none;
@@ -90,9 +82,33 @@ button {
     margin-top: 28px;
 }
 
+.post-img-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay-icon {
+    position: absolute;
+    top: 18.38px;       /* adjust as needed */
+    right: 18.38px;     /* adjust as needed */
+    width: 21.23px;    /* set size if needed */
+    height: 21.23px;
+    z-index: 2;
+}
+
+.overlay-icon-reels {
+    position: absolute;
+    top: 15px;       /* adjust as needed */
+    right: 15px;     /* adjust as needed */
+    width: 28px;    /* set size if needed */
+    height: 28px;
+    z-index: 2;
+}
+
 .header {
     height: 494px
 }
+
 .header-top {
     height: 441px;
     padding: 71px 0 55px 73px;
@@ -104,6 +120,7 @@ button {
     border-radius: 50%;
     /* margin-left: 28px; */
 }
+
 .header-top-profile-pic {
     width: 150px;
     height: 150px;
@@ -194,7 +211,7 @@ button {
 }
 
 .space-below {
-    margin-bottom: .5em;
+    margin-bottom: 13px;
 }
 
 /* .outline {
@@ -215,9 +232,9 @@ button {
     height: 52px;
     padding: 0 12px;
 }
+
 .top-nav-link-box:hover {
     background-color: #F2F2F2;
-
 }
 
 .top-nav-text {
@@ -257,7 +274,7 @@ button {
 .aside-nav-logo-box {
     padding-top: 40px;
     padding-left: 24px;
-    padding-bottom: 31px;
+    padding-bottom: 27px;
 }
 
 .footer-row-2-spc-1 {
