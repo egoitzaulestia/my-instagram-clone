@@ -1,0 +1,33 @@
+/* .post-pic {
+    width: 293px;
+    height: 293px;
+} */
+
+.pic-gap {
+    margin-top: 28px;
+}
+
+.post-img-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 293px;
+    height: 293px;
+}
+
+.overlay-icon {
+    position: absolute;
+    top: 18.38px;       /* adjust as needed */
+    right: 18.38px;     /* adjust as needed */
+    width: 21.23px;    /* set size if needed */
+    height: 21.23px;
+    z-index: 2;
+}
+
+.overlay-icon-reels {
+    position: absolute;
+    top: 15px;       /* adjust as needed */
+    right: 15px;     /* adjust as needed */
+    width: 28px;    /* set size if needed */
+    height: 28px;
+    z-index: 2;
+}

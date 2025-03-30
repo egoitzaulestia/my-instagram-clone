@@ -1,0 +1,28 @@
+.aside {
+    background-color: #FFFFFF;
+    direction: node;
+    width: 244px;
+    height: 2482px;  /* Altura total de la ventana */
+}
+
+.aside-nav-box {
+    width: 220px;
+    height: 48px;
+    margin: 8px 12px;
+    padding: 12px;
+}
+
+.aside-nav-box:hover {
+    background-color: #F2F2F2;
+    border-radius: 4px;
+}
+
+.aside-nav-text-space {
+    margin-left: 16px;
+} 
+
+.aside-nav-logo-box {
+    padding-top: 40px;
+    padding-left: 24px;
+    padding-bottom: 27px;
+}

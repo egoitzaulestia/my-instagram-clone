@@ -1,0 +1,22 @@
+.footer {
+    height: 93px;
+    font-size: 11.5px;
+    display: flex;
+}
+
+.footer, .footer a {
+    color: #8E8E8E;
+}
+
+.footer-container {
+    width: 662px;
+    height: 48px;
+}
+
+.footer-row-2-spc-1 {
+    margin-left: 8px;
+}
+
+.footer-row-2-spc-2 {
+    margin-left: 26px;
+}

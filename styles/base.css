@@ -1,0 +1,23 @@
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+    background-color: #fAfAfA;
+    color: #262626;
+}
+
+a {
+    text-decoration: none;
+    color: #262626;
+}
+
+button {
+    width: 90px;
+    height: 30px;
+    border-radius: 4px;
+    margin-left: 20px;
+    background: #0094F6;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}

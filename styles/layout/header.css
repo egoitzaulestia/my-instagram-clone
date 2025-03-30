@@ -1,0 +1,120 @@
+.header {
+    height: 494px
+}
+
+.header-top {
+    height: 441px;
+    padding: 71px 0 55px 73px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* margin-left: 28px; */
+}
+
+.header-top-profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.header-top-profile-box {
+    padding-bottom: 44px;
+}
+
+.header-top-profile-info {
+    width: 613px;
+    padding-top: 14px;
+}
+
+.header-top-profile-info-username {
+    font-size: 1.6em;
+    font-weight: 350;
+}
+
+.header-top-profile-info-stats {
+    font-size: 16px;
+    font-weight: 350;
+    padding: 20px 0;
+}
+
+.header-top-profile-info-name {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.header-top-dots {
+    width: 24px;
+    height: 24px;
+    padding-left: 13px;
+}
+
+.header-and-main {
+    width: 935px;
+}
+
+/* Header Stats */
+
+.stats-box {
+    width: 120px;
+}
+
+.stats-bold-text {
+    font-weight: 500;
+}
+
+.saved-story {
+    width: 125px;
+    height: 130px;
+    padding-top: 55px;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.saved-story-pic {
+    width: 77px;
+    height: auto;
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    border: 5px solid #ffffff; /* Ajusta el color y el grosor del borde según sea necesario */
+}
+
+/* Top-Nav */
+
+.top-nav-heigh {
+    height: 53px;
+}
+
+.top-nav-line {
+    border-top: 1px solid #DBDBDB;
+}
+
+.top-nav-link-box {
+    width: 120px;
+    height: 52px;
+    padding: 0 12px;
+}
+
+.top-nav-link-box:hover {
+    background-color: #F2F2F2;
+}
+
+.top-nav-text {
+    font-size: 11px;
+    font-weight: 600;
+    padding-left: 8px;
+    color: #8E8E8E;
+}
+
+.top-nav-text-select {
+    font-size: 11px;
+    font-weight: 600;
+    padding-left: 8px;
+}
+
+.top-nav-icon {
+    width: 12px;
+    height: 12px;
+}

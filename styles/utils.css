@@ -1,0 +1,45 @@
+.d-flex {
+    display: flex;
+}
+
+.flex-justify-center {
+    justify-content: center;
+}
+
+.flex-justify-spc-btween {
+    justify-content: space-between;
+}
+
+.flex-justify-spc-around {
+    justify-content: space-around;
+}
+
+.flex-wrap-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.display-decoration-none {
+    text-decoration: none;
+}
+
+.space-below {
+    margin-bottom: 13px;
+}
+
+/*
+.outline {
+    border: .1px dotted red;
+} 
+*/
