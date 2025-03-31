@@ -1,15 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
-
     // Botón Follow
-
     const followBtnWrapper = document.getElementById('follow-btn-wrapper');
-
     const followBtn = document.createElement('button');
     followBtn.innerText = 'Follow'
     followBtnWrapper.appendChild(followBtn)
 
     let userName = "Terry Lucas";
-
     let followUser = false;
 
     followBtn.addEventListener('click', () => {
@@ -17,24 +13,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (followUser) {
             alert(`You are following ${userName} now :)`);
-
-            const followBtnWrapper = document.getElementById('follow-btn-wrapper');
-            const followBtn = document.querySelector('button');
             followBtn.classList.add('button-unfollow');
             followBtn.innerText = 'Following';
-            followBtnWrapper.appendChild(followBtn);
-
         } else {
             alert(`You are no longer following ${userName} :/`);
-
-            const followBtnWrapper = document.getElementById('follow-btn-wrapper');
-            const followBtn = document.querySelector('button');
             followBtn.classList.remove('button-unfollow');  
             followBtn.innerText = 'Follow';
-            followBtnWrapper.appendChild(followBtn);
         }
     });
-
 
     // Array con los datos de cada post
      // NOTA: En una aplicación real esto NO SE ARÍA ASÍ (o no creo, LOL...),
