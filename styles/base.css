@@ -27,14 +27,3 @@ button:hover {
     background: #0078c8;
 }
 
-.button-unfollow {
-    background-color: #696969;
-}
-
-.button-unfollow:hover {
-    background-color: #696969;
-}
-
-.button-unfollow:active {
-    background-color: #262626;
-}

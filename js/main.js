@@ -12,11 +12,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let followUser = false;
 
-    document.addEventListener('click', () => {
+    followBtn.addEventListener('click', () => {
         followUser = !followUser;
 
         if (followUser) {
-            alert(`You are following ${userName} now`);
+            alert(`You are following ${userName} now :)`);
 
             const followBtnWrapper = document.getElementById('follow-btn-wrapper');
             const followBtn = document.querySelector('button');
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
             followBtnWrapper.appendChild(followBtn);
 
         } else {
-            alert(`You are no longer following ${userName}`);
+            alert(`You are no longer following ${userName} :/`);
 
             const followBtnWrapper = document.getElementById('follow-btn-wrapper');
             const followBtn = document.querySelector('button');
