@@ -1,19 +1,55 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+    // Botón Follow
+
+    const followBtnWrapper = document.getElementById('follow-btn-wrapper');
+
+    const followBtn = document.createElement('button');
+    followBtn.innerText = 'Follow'
+    followBtnWrapper.appendChild(followBtn)
+
+    let userName = "Terry Lucas";
+
+    let followUser = false;
+
+    document.addEventListener('click', () => {
+        followUser = !followUser;
+
+        if (followUser) {
+            alert(`You are following ${userName} now`);
+
+            const followBtnWrapper = document.getElementById('follow-btn-wrapper');
+            const followBtn = document.querySelector('button');
+            followBtn.classList.add('button-unfollow');
+            followBtn.innerText = 'Following';
+            followBtnWrapper.appendChild(followBtn);
+
+        } else {
+            alert(`You are no longer following ${userName}`);
+
+            const followBtnWrapper = document.getElementById('follow-btn-wrapper');
+            const followBtn = document.querySelector('button');
+            followBtn.classList.remove('button-unfollow');  
+            followBtn.innerText = 'Follow';
+            followBtnWrapper.appendChild(followBtn);
+        }
+    });
+
+
     // Array con los datos de cada post
-    // NOTA: En una aplicación real esto NO SE ARÍA ASÍ (o no creo, LOL...),
+     // NOTA: En una aplicación real esto NO SE ARÍA ASÍ (o no creo, LOL...),
     // si no que se aría de una manera más dinámica aún, valga la redundancia.
     // Pero quería probar a implantar JS para inyectar contenido dinámico en el proyecto.
     const postsData = [
         {
-            img: "images/post/Small-Post-1.jpg",
-            overlay: "images/icons/SVG/Multiple-Photos-Icon.svg",
-            overlayClass: "overlay-icon"  // Clase para aplicar estilos específicos al overlay
+            img: "images/post/Small-Post-1.jpg", // Ruta de la imagen
+            overlay: "images/icons/SVG/Multiple-Photos-Icon.svg", // Ruta del icono que solapa la imagen
+            overlayClass: "overlay-icon"  // Clase para aplicar estilo overlay-icon, propiedades para icono tipo Multiple-Photos-Icon.svg
         },
         {
             img: "images/post/Small-Post-2.jpg",
-            overlay: "images/icons/SVG/Reels-Post-Icon.svg",
-            overlayClass: "overlay-icon-reels"
+            overlay: "images/icons/SVG/Reels-Post-Icon.svg", 
+            overlayClass: "overlay-icon-reels" // Clase para aplicar estilo overlay-icon-reels, propiedades para icono tipo Reels-Post-Icon.svg
         },
         {
             img: "images/post/Small-Post-3.jpg",
@@ -21,12 +57,12 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             img: "images/post/Small-Post-4.jpg",
-            overlay: null,  // No hay overlay en este post
+            overlay: null,
             gap: true
         },
         {
             img: "images/post/Small-Post-5.jpg",
-            overlay: null,  // No hay overlay en este post
+            overlay: null,
             gap: true
         },
         {
@@ -55,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             img: "images/post/Small-Post-1.jpg",
             overlay: "images/icons/SVG/Multiple-Photos-Icon.svg",
-            overlayClass: "overlay-icon",  // Clase para aplicar estilos específicos al overlay 
+            overlayClass: "overlay-icon",  
             gap: true
         },
         {
@@ -120,23 +156,25 @@ document.addEventListener('DOMContentLoaded', () => {
         // Crea la imagen principal del post
         const mainImg = document.createElement('img');
         mainImg.src = post.img;
-        mainImg.alt = ""; // Puedes agregar un alt descriptivo
+        mainImg.alt = "A Post Image"; 
         postWrapper.appendChild(mainImg);
     
         // Si hay overlay, créalo y añádelo
         if (post.overlay) {
             const overlayImg = document.createElement('img');
             overlayImg.src = post.overlay;
-            overlayImg.alt = ""; // Puedes agregar un alt descriptivo
+            overlayImg.alt = "Icon image"; 
             overlayImg.classList.add(post.overlayClass);
             postWrapper.appendChild(overlayImg);
         }
 
+        // Si hay gap, créalo y añádelo
         if (post.gap) {
-            postWrapper.classList.add('pic-gap')
+            postWrapper.classList.add('pic-gap');
         }
   
         // Agrega el wrapper de este post al contenedor principal
         postsContainer.appendChild(postWrapper);
     });
-  });
+});
+
