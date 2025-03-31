@@ -1,0 +1,89 @@
+@import 'reset.css';
+@import 'base.css';
+
+@import 'layout/header.css';
+@import 'layout/aside.css';
+@import 'layout/main.css';
+@import 'layout/footer.css';
+
+@import 'utils.css';
+
+
+
+
+
+
+
+
+
+
+/* .outline {
+    border: .1px dotted red;
+} */
+
+.top-nav-heigh {
+    height: 53px;
+    /* background-color: blueviolet; */
+}
+
+.top-nav-line {
+    border-top: 1px solid #DBDBDB;
+}
+
+.top-nav-link-box {
+    width: 120px;
+    height: 52px;
+    padding: 0 12px;
+}
+
+.top-nav-link-box:hover {
+    background-color: #F2F2F2;
+}
+
+.top-nav-text {
+    font-size: 11px;
+    font-weight: 600;
+    padding-left: 8px;
+    color: #8E8E8E;
+}
+
+.top-nav-text-select {
+    font-size: 11px;
+    font-weight: 600;
+    padding-left: 8px;
+}
+
+.top-nav-icon {
+    width: 12px;
+    height: 12px;
+}
+
+.aside-nav-box {
+    width: 220px;
+    height: 48px;
+    margin: 8px 12px;
+    padding: 12px;
+}
+
+.aside-nav-box:hover {
+    background-color: #F2F2F2;
+    border-radius: 4px;
+}
+
+.aside-nav-text-space {
+    margin-left: 16px;
+} 
+
+.aside-nav-logo-box {
+    padding-top: 40px;
+    padding-left: 24px;
+    padding-bottom: 27px;
+}
+
+.footer-row-2-spc-1 {
+    margin-left: 8px;
+}
+
+.footer-row-2-spc-2 {
+    margin-left: 26px;
+}
